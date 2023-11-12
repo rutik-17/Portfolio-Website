@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutik Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Quicksand:wght@300&display=swap"
+    rel="stylesheet">
+
+<body>
+    <header>
+        <nav>
+            <nav class="left">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">EDUCATION</a></li>
+                    <li><a href="#">PROJECTS</a></li>
+                </ul>
+            <!-- </nav>
+            <nav class="right">IT'S ME, RUTIK RATHOD</nav>
+        </nav> -->
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                <img src="img/rutik.jpg.png" alt="">
+            </div>
+            <div class="rightsection">HI, MY NAME IS <span class="red">RUTIK</span>
+                <div>AND I AM A FRONTEND</div>
+                <div>DEVELOPER</div>
+                <span id="element"></span>
+                <div class="buttons">
+
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-grey">Explore More</span>
+            <h1>About Me</h1>
+        </section>
+
+        <section class="thirdsection">
+            <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti cum ab ipsum esse numquam,
+                consequuntur consequatur praesentium laboriosam inventore, veniam deserunt officia eveniet maxime fuga
+                perferendis adipisci expedita quibusdam libero consectetur. Tempore omnis suscipit quas sed repellat eos
+                praesentium fugit nobis recusandae, amet nam sint perspiciatis nihil voluptatum odit ex!</h4>
+        </section>
+        <section class="fourthsection">
+            <div class="lleftsection">
+                <img src="img/github.png" alt="">
+            </div>
+            <div class="rrightsection">
+                <img src="img/linkedin.png" alt="">
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Designer', 'Java Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>

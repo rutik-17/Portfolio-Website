@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 65px;
+    background-color: rgb(18, 18, 62)
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    /* font-size: large; */
+}
+
+.right {
+    font-size: 1.5rem;
+}
+
+
+
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 200px 0;
+}
+
+.firstsection>div {
+
+    width: 30%;
+
+}
+
+.leftsection img {
+    width: 200px;
+    margin: 0 100px;
+    border-radius: 10px;
+
+
+
+}
+
+.rightsection {
+
+    font-size: 2rem;
+    /* margin: 20px 0; */
+
+}
+
+.rightsection .btn {
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 13px;
+    cursor: pointer;
+    margin: 10px 0;
+
+}
+
+.red {
+    color: blueviolet;
+}
+
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+
+}
+
+main hr {
+    border: 0px;
+    background: #9c97f1;
+    height: 1px;
+    margin: 80px 90px;
+}
+
+.secondsection h1 {
+    font-size: 1.9vw;
+}
+
+.text-grey {
+    color: grey;
+}
+
+#element {
+    color: blueviolet;
+}
+
+.thirdsection {
+    /* height: 40vh; */
+    margin: 48px 118px;
+    font-size: smaller;
+    font-family:'Poppins', sans-serif;
+}
+
+
+
+.fourthsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 530px;
+    height: 25vh;
+
+}
+
+.fourthsection div {
+    width: 30%;
+}
+
+.lleftsection {
+
+    /* background-color: red; */
+}
+
+.rrightsection {
+    /* background-color: red; */
+}
+
+.lleftsection img {
+    width: 60px;
+    border-radius: 17px;
+}
+
+.rrightsection img {
+    width: 60px;
+    border-radius: 17px;
+}
